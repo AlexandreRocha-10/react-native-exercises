@@ -9,6 +9,7 @@ import SliderBar from './src/components/SliderBar';
 import SwitchBar from './src/components/SwitchBar';
 import TextAsync from './src/components/TextAsync';
 import Animation from './src/components/Animation';
+import Effects from './src/components/Effects';
 
 export default function App() {
   const data = [
@@ -28,6 +29,7 @@ export default function App() {
     { id: '14', component: <Divisoria /> },
     { id: '15', component: <Animation /> },
     { id: '16', component: <Divisoria /> },
+    { id: '17', component: <Effects /> },
   ];
 
   function renderItem({ item }) {
